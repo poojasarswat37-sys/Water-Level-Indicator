@@ -38,3 +38,10 @@ The internal system firmware maps individual voltage variations to process speci
 2. **Low Level State:** The **Red LED** illuminates to indicate initial water baseline contact.
 3. **Half-Full State:** The **Yellow LED** activates concurrently when water levels rise to the middle threshold.
 4. **Maximum State:** The **Green LED** and **Buzzer Alarm** activate simultaneously to warn users that the tank is at max storage capacity.
+
+ ## 📊 Circuit Schematic & Hardware Prototype
+To give a comprehensive view of the system development, both the schematic logic using the ULN2003 driver array and the operational hardware prototype are presented below:
+
+| System Circuit Schematic | Functional Physical Prototype |
+| :---: | :---: |
+| ![Circuit Schematic](schematic.png) | ![Physical Prototype](prototype.jpg) |
