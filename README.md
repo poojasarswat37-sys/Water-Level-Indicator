@@ -32,6 +32,16 @@ An automated embedded systems prototype designed to monitor water levels in real
 | **Green LED** | Digital Output Node | **Pin 11** | Full Tank Level Indicator |
 | **Buzzer Alarm** | Digital Output Node | **Pin 10** | Critical Maximum Level Sound Warning |
 
+---
+
+## 📂 Project Documentation
+
+For a detailed analysis of the sensor calibration, circuit logic, multi-level visual indicators, and hardware testing procedures, you can access the full official project report here:
+
+> 📄 **[Click Here to Read the Full Project Report](./Project_Report.pdf)**
+
+---
+
 ## 📊 Operational Methodology
 The internal system firmware maps individual voltage variations to process specific structural logic flags:
 1. **Empty State:** All system output LEDs remain completely offline when no water is detected.
